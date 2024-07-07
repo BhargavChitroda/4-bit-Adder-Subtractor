@@ -7,7 +7,7 @@ bord : krypton bord
 family name : MAX V
 device : 5M1270ZT144C5
 
-Project Structure
+Project Structure :
 Components:
 Full Adder: A single-bit full adder module.
 XOR Gate: A single-bit XOR gate module.
@@ -21,12 +21,12 @@ Outputs:
 S: 4-bit output result (S3 S2 S1 S0)
 Cout: 1-bit carry-out output.
 
-Usage
+Usage :
 To use this VHDL design, follow these steps:
 Create a new VHDL project in your preferred VHDL IDE.
 Add the VHDL files for the FullAdder and  XORGate components to your project.
 Instantiate the AdderSubtractor component in your top-level VHDL file or testbench.
 Compile and simulate the design to verify its functionality.
 
-Conclusion
+Conclusion :
 This VHDL project provides a 4-bit ripple carry adder-subtractor, utilizing full adders and XOR gates as components. The provided testbench can be used to verify the functionality of the design.
